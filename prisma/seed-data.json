@@ -1,0 +1,18 @@
+{
+  "_note": "Exported from the Benwil Billing artifact on 2026-10-12. The artifact's database had no centers or receipts yet, so only the business settings are seeded. To import records later, add them to the arrays below in the same shape the artifact used (id, name, owner, ... for centers; id, no, centerId, center, items, payments, ... for receipts) and run `npm run db:seed` again.",
+  "settings": {
+    "business": "Benwil Solutions",
+    "product": "Coaching Management Software",
+    "address": "19 Churial Tuly Lane, Chattogram 4000",
+    "phone": "+880 164 427 2188",
+    "email": "info@benwil.org",
+    "website": "www.benwil.org",
+    "prefix": "BWC",
+    "periodDays": 30,
+    "monthlyFee": 5000,
+    "signer": "Benwil Solutions",
+    "notes": "Thank you for your payment. Your subscription is active for the billing period shown above. For support, call +880 164 427 2188 or email info@benwil.org."
+  },
+  "centers": [],
+  "receipts": []
+}
